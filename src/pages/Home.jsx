@@ -16,7 +16,7 @@ export default function Home() {
           <img
             src={modernHouse}
             alt="Luxury Home"
-            className="object-cover w-full h-170"
+            className="object-cover w-full h-182"
           />
           <div className="absolute inset-0 bg-black/40"></div>
         </div>

@@ -1,12 +1,97 @@
-# React + Vite
+# 🏠 PrimeHomes - Real Estate Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern real estate platform built with React, featuring property listings, detailed views, and smooth animations.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **7 Responsive Pages**
+  - Homepage with hero section
+  - Property listings with filters
+  - Property details page
+  - About Us section
+  - Blog/Insights
+  - Contact page
+  - Agent profiles
 
-## Expanding the ESLint configuration
+- **Modern UI Components**
+  - Animated property cards
+  - Interactive image galleries
+  - Responsive navigation
+  - Smooth page transitions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend**
+  - React.js
+  - React Router
+  - Tailwind CSS
+  - Framer Motion
+  - React Icons
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repository
+```bash
+git clone https://github.com/PiyushGupta-45/PrimeHomes_RealEstate.git
+cd PrimeHomes_RealEstate
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start development server
+```bash
+npm start
+# or
+yarn start
+```
+
+## 📂 Project Structure
+```
+primehomes/
+├── public/               # Static files
+├── src/
+│   ├── assets/           # Images and fonts
+│   ├── components/       # Reusable components
+│   │   ├── NavBar.jsx
+│   │   ├── Footer.jsx
+│   ├── pages/            # Page components
+│   │   ├── Home.jsx
+│   │   ├── Properties.jsx
+│   │   ├── PropertyDetail.jsx
+│   │   ├── About.jsx
+│   │   ├── Blog.jsx
+│   │   ├── Contact.jsx
+│   ├── App.jsx           # Main app component
+│   └── index.js          # Entry point
+├── package.json
+└── README.md
+```
+
+## 🌐 Deployment
+Deployed on Vercel:  
+**Live Demo:** _[Add your Vercel link here]_
+
+To deploy your own copy:
+1. Push the code to GitHub
+2. Import the repository into Vercel
+3. Configure build settings (React preset)
+4. Deploy!
+
+## 📝 License
+This project is licensed under the MIT License.
+
+## 📬 Contact
+For questions or feedback:
+
+- Email: your.email@example.com
+- GitHub: [@PiyushGupta-45](https://github.com/PiyushGupta-45)
